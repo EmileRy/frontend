@@ -16,4 +16,4 @@ RUN npm install
 COPY . .
 
 EXPOSE 8080
-CMD [ "sh entrypoint.sh && npm run serve" ]
+CMD [ "npm", "run", "serve" ]
