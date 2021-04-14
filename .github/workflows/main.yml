@@ -15,6 +15,6 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.EMILE_TOKEN }}
           registry: docker.pkg.github.com
-          repository: logutt/frontend/frontend
+          repository: logutt/frontend/frontend-dev
           tags: latest
           tag_with_ref: true
